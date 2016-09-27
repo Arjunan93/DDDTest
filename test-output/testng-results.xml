@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="3" failed="1" total="4" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="64398" started-at="2016-09-26T03:49:54Z" finished-at="2016-09-26T03:50:59Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="64398" started-at="2016-09-26T03:49:54Z" finished-at="2016-09-26T03:50:59Z">
+      <class name="com.vmetry.ntl.testcases.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.vmetry.ntl.testcases.HomePageTest@d041cf]" name="setUp" is-config="true" duration-ms="49925" started-at="2016-09-26T09:19:54Z" finished-at="2016-09-26T09:20:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="testHomePage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.vmetry.ntl.testcases.HomePageTest@d041cf]" name="testHomePage" duration-ms="110" started-at="2016-09-26T09:20:54Z" data-provider="HomePageTest" finished-at="2016-09-26T09:20:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HomePageTest_DataSet2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vinoth]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9898989898]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[adyar]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[adyar]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Sedan]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.vmetry.ntl.testcases.HomePageTest.testHomePage(HomePageTest.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:648)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:834)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1142)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1176)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1101)
+	at org.testng.TestNG.run(TestNG.java:1009)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomePage -->
+        <test-method status="FAIL" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.vmetry.ntl.testcases.HomePageTest@d041cf]" name="teardown" is-config="true" duration-ms="0" started-at="2016-09-26T09:20:54Z" finished-at="2016-09-26T09:20:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testHomePage status=FAILURE method=HomePageTest.testHomePage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.vmetry.ntl.testcases.HomePageTest@d041cf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.vmetry.ntl.utils.Screenshotgenerator.getScreenshot(Screenshotgenerator.java:31)
+	at com.vmetry.ntl.testcases.HomePageTest.teardown(HomePageTest.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:721)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:834)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1142)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1176)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1101)
+	at org.testng.TestNG.run(TestNG.java:1009)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="SKIP" signature="testHomePage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.vmetry.ntl.testcases.HomePageTest@d041cf]" name="testHomePage" duration-ms="0" started-at="2016-09-26T09:20:59Z" data-provider="HomePageTest" finished-at="2016-09-26T09:20:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HomePageTest_DataSet3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kumar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1234567890]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[adyar]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[adyar]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Sedan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomePage -->
+        <test-method status="SKIP" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.vmetry.ntl.testcases.HomePageTest@d041cf]" name="teardown" is-config="true" duration-ms="0" started-at="2016-09-26T09:20:59Z" finished-at="2016-09-26T09:20:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="SKIP" signature="testHomePage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.vmetry.ntl.testcases.HomePageTest@d041cf]" name="testHomePage" duration-ms="0" started-at="2016-09-26T09:20:59Z" data-provider="HomePageTest" finished-at="2016-09-26T09:20:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HomePageTest_DataSet5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hakkim]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6789054321]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[adyar]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[adyar]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Sedan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomePage -->
+        <test-method status="SKIP" signature="testHomePage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.vmetry.ntl.testcases.HomePageTest@d041cf]" name="testHomePage" duration-ms="0" started-at="2016-09-26T09:20:59Z" data-provider="HomePageTest" finished-at="2016-09-26T09:20:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HomePageTest_DataSet4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sunil]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9876543210]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[adyar]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[adyar]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Sedan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomePage -->
+        <test-method status="SKIP" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.vmetry.ntl.testcases.HomePageTest@d041cf]" name="teardown" is-config="true" duration-ms="0" started-at="2016-09-26T09:20:59Z" finished-at="2016-09-26T09:20:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="SKIP" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.vmetry.ntl.testcases.HomePageTest@d041cf]" name="teardown" is-config="true" duration-ms="0" started-at="2016-09-26T09:20:59Z" finished-at="2016-09-26T09:20:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.vmetry.ntl.testcases.HomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
