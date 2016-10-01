@@ -39,6 +39,7 @@ public class Initiliazer {
 	    envPro=new Properties();
 		envPro.load(envFis);
 	
+		report=new ExtentReports("E:\\selenium\\DDTtest\\Report\\DDD.html");
 		locatorFis=new FileInputStream(new File("E:\\selenium\\DDTtest\\src\\test\\java\\com\\vmetry\\ntl\\config\\locator.properties"));
 		locatorPro=new Properties();
 		locatorPro.load(locatorFis);

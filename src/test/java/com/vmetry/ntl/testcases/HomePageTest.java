@@ -24,7 +24,7 @@ public class HomePageTest extends Initiliazer {
 	}
 	@Test(dataProvider="HomePageTest")
 	public void testHomePage(String data,String userName,String mobileNo,String picadd,String dropadd,String basic) throws IOException, InterruptedException {
-		log=report.startTest("validLogin");
+		log=report.startTest(data);
 		Driverfunctionstest.loadURL();
 		homepage.enterUserName(userName);
 		homepage.enterMobieNo(mobileNo);
